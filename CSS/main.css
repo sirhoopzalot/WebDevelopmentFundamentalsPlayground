@@ -2,5 +2,12 @@
 
 body {
 	font-family: Arial ;
-	background: blue ;
+	
+}
+h1 {
+	color:red;
+	background: blue;
+}
+.cat{
+	color:blue ;
 }
