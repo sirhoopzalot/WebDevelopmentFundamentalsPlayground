@@ -11,3 +11,9 @@ h1 {
 .cat{
 	color:blue ;
 }
+#dog{color:orange;
+}
+.css-statements {border:3px dotted blue;
+}
+.uses { border :3px solid turquoise ;
+background:#00ff00;}
