@@ -4,9 +4,36 @@ body {
 	font-family: Arial ;
 	
 }
+/*
 h1 {
 	color:red;
 	background: blue;
+	*/
+}
+/*  Nav Bar CSS   */
+
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #00ff00;
+
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: inline-block;
+	color:blue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+.nav li a:hover{
+	background-color:#00ff00;
 }
 .cat{
 	color:blue ;
@@ -17,3 +44,133 @@ h1 {
 }
 .uses { border :3px solid turquoise ;
 background:#00ff00;}
+
+.face {
+  width:100px;
+  height:100px;
+  background-color:yellow;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ margin: 10px 0px 0px 100px;
+  
+}
+
+.lefteye {
+  width:6px;
+  height:6px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 120px;
+ bottom: 0px;
+  top: 100px;
+  background-color: black;
+}
+
+.righteye {
+  width:6px;
+  height:6px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 167px;
+ bottom: 0px;
+  top: 100px;
+  background-color: black;
+}
+
+.rightpupil{
+  width:3px;
+  height:3px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 167px;
+ bottom: 10px;
+  top: 100px;
+  background-color: white;
+}
+
+.leftpupil {
+   width:3px;
+  height:3px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 120px;
+ bottom: 0px;
+  top: 100px;
+  background-color: white;
+}
+
+.mouth {
+   width:10px;
+  height:9px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 140px;
+ bottom: 0px;
+  top: 140px;
+  background-color: black;
+}
+
+.tongue {
+  width:6px;
+  height:4px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 143px;
+ bottom: 0px;
+  top: 145px;
+  background-color: #ff0066;
+}
+
+.nose {
+   width:6px;
+  height:4px;
+  border:2px solid black;
+  position: absolute;
+  border-radius:50px;
+ left: 143px;
+ bottom: 0px;
+  top: 115px;
+  background-color: #663300;
+}
+
+.projects {
+	padding: 50px;
+	background-color: orange;
+}
+
+.project-box-1{
+	height: 300px;
+	background-color: azure;
+}
+
+.project-box-2{
+	height: 300px;
+	background-color: gold;
+}
+
+.project-box-3{
+	height: 300px;
+	background-color:red;
+}
+
+.project-box-4{
+	height: 300px;
+	background-color:brown;
+}
+
+.project-box-5{
+	height: 300px;
+	background-color:purple;
+}
+
+.project-box-6{
+	height: 300px;
+	background-color:yellow;
+}
